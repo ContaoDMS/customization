@@ -1,0 +1,263 @@
+﻿/* Level definitions */
+div.mod_dms tr.category td.category_name:before, 
+div.mod_dms tr.document td.document_link:before {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 18px;
+	color: #afafaf;
+	content: "L ";
+}
+div.mod_dms tr.document td.document_link:before {
+	color: #A84204;
+}
+div.mod_dms tr td.category_name {
+	font-weight: bold;
+}
+div.mod_dms tr td.document_description {
+	height: 20px;
+	padding: 0;
+	font-style: italic;
+	font-size: 95%;
+}
+div.mod_dms tr.level_0 td.category_name {
+	padding-left: 0px;
+}
+div.mod_dms tr.level_0 td.document_link,
+div.mod_dms tr.level_0 td.category_description {
+	padding-left: 20px;
+}
+div.mod_dms tr.level_0 td.document_description {
+	padding-left: 40px;
+}
+div.mod_dms tr.level_1 td.category_name {
+	padding-left: 20px;
+}
+div.mod_dms tr.level_1 td.document_link,
+div.mod_dms tr.level_1 td.category_description {
+	padding-left: 40px;
+}
+div.mod_dms tr.level_1 td.document_description {
+	padding-left: 60px;
+}
+div.mod_dms tr.level_2 td.category_name {
+	padding-left: 40px;
+}
+div.mod_dms tr.level_2 td.document_link,
+div.mod_dms tr.level_2 td.category_description {
+	padding-left: 60px;
+}
+div.mod_dms tr.level_2 td.document_description {
+	padding-left: 80px;
+}
+div.mod_dms tr.level_3 td.category_name {
+	padding-left: 60px;
+}
+div.mod_dms tr.level_3 td.document_link,
+div.mod_dms tr.level_3 td.category_description {
+	padding-left: 80px;
+}
+div.mod_dms tr.level_3 td.document_description {
+	padding-left: 100px;
+}
+div.mod_dms tr.level_4 td.category_name {
+	padding-left: 80px;
+}
+div.mod_dms tr.level_4 td.document_link,
+div.mod_dms tr.level_4 td.category_description {
+	padding-left: 100px;
+}
+div.mod_dms tr.level_4 td.document_description {
+	padding-left: 120px;
+}
+div.mod_dms tr.level_5 td.category_name {
+	padding-left: 100px;
+}
+div.mod_dms tr.level_5 td.document_link,
+div.mod_dms tr.level_5 td.category_description {
+	padding-left: 120px;
+}
+div.mod_dms tr.level_5 td.document_description {
+	padding-left: 140px;
+}
+div.mod_dms tr.level_6 td.category_name {
+	padding-left: 120px;
+}
+div.mod_dms tr.level_6 td.document_link,
+div.mod_dms tr.level_6 td.category_description {
+	padding-left: 140px;
+}
+div.mod_dms tr.level_6 td.document_description {
+	padding-left: 160px;
+}
+
+/* general definitions */
+div.mod_dms thead tr th {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;
+	font-weight: bold;
+	line-height: 20px;
+}
+div.mod_dms tbody td {
+	height: 30px;
+}
+div.mod_dms tfoot tr:first-child td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-top: 1px solid #000000;
+}
+div.mod_dms tr.category:hover td {
+	background-color: #efefef;
+}
+div.mod_dms .centered {
+	text-align: center;
+}
+div.mod_dms .label {
+	font-style: italic;
+	padding-right: 20px;
+}
+div.mod_dms .label:after {
+	content: ":";
+}
+div.mod_dms .headline {
+	font-style: italic;
+}
+div.mod_dms tr.subheadline td {
+	border-bottom: 1px solid #dddddd;
+}
+div.mod_dms td.button {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+div.mod_dms_management tr td.no_right {
+	font-weight: bold;
+	color: #ff0000;
+}
+div.mod_dms tr.category.locked td.category_name,
+div.mod_dms tr.category.locked td.category_filecount {
+	color: #fba124 !important;
+	height: 15px !important;
+	font-size: 10px !important;
+}
+div.mod_dms tr.category.empty td.category_name,
+div.mod_dms tr.category.empty td.category_filecount {
+	color: #d0d0d0 !important;
+	height: 15px !important;
+	font-size: 10px !important;
+}
+div.mod_dms tr.category.locked.empty td.category_name,
+div.mod_dms tr.category.locked.empty td.category_filecount {
+	color: #dada16 !important;
+	height: 15px !important;
+	font-size: 10px !important;
+}
+/* messages */
+div.mod_dms #dms_errors .error,
+div.mod_dms #dms_warnings .warning,
+div.mod_dms #dms_successes .success,
+div.mod_dms #dms_infos .info {
+	border: 1px solid;
+	font-size: 12px;
+	padding: 2px 5px 2px 20px;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
+	margin-bottom: 5px;
+}
+div.mod_dms #dms_errors .error:before,
+div.mod_dms #dms_warnings .warning:before,
+div.mod_dms #dms_successes .success:before,
+div.mod_dms #dms_infos .info:before {
+	font-size: 16px;
+	line-height: 16px;
+	float: left;
+	padding-right: 5px;
+	margin-left: -15px;
+	width: 12px;
+	text-align: center;
+	display: inline-block;
+}
+div.mod_dms #dms_errors .error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	border-color: #D8000C;
+}
+div.mod_dms #dms_errors .error:before {
+	content: "\2718";
+}
+div.mod_dms #dms_warnings .warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	border-color: #9F6000;
+}
+div.mod_dms #dms_warnings .warning:before {
+	content: "!";
+	font-weight: bold;
+}
+div.mod_dms #dms_successes .success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	border-color: #4F8A10;
+}
+div.mod_dms #dms_successes .success:before {
+	content: "\2714";
+}
+div.mod_dms #dms_infos .info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	border-color: #00529B;
+}
+div.mod_dms #dms_infos .info:before {
+	content: "i";
+	font-weight: bold;
+}
+div.mod_dms #list_search > div {
+	margin-bottom: 10px;
+}
+div.mod_dms #list_search button,
+div.mod_dms #list_search input,
+div.mod_dms #list_search select {
+	width: 140px;
+}
+div.mod_dms #list_search #searchText {
+	width: 135px;
+}
+.explanation {
+	cursor: help;
+}
+.explanation {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#documentName,
+#documentDescription,
+#documentKeywords {
+	width: 100%;
+}
+.mandatory {
+	color: #c10000;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: help;
+}
+.existingDocument.unpublished {
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=50);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.5;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.5;
+	
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.5;
+}
