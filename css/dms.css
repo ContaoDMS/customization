@@ -222,25 +222,23 @@ div.mod_dms #list_search select {
 div.mod_dms #list_search #searchText {
 	width: 135px;
 }
-.explanation {
+div.mod_dms .explanation {
 	cursor: help;
-}
-.explanation {
 	padding-left: 5px;
 	padding-right: 5px;
 }
-#documentName,
-#documentDescription,
-#documentKeywords {
+div.mod_dms #documentName,
+div.mod_dms #documentDescription,
+div.mod_dms #documentKeywords {
 	width: 100%;
 }
-.mandatory {
+div.mod_dms .mandatory {
 	color: #c10000;
 	padding-left: 5px;
 	padding-right: 5px;
 	cursor: help;
 }
-.existingDocument.unpublished {
+div.mod_dms .existingDocument.unpublished {
 	/* Theoretically for IE 8 & 9 (more valid) */
 	/* ...but not required as filter works too */
 	/* should come BEFORE filter */
@@ -260,4 +258,7 @@ div.mod_dms #list_search #searchText {
 	/* Firefox 0.9+, Safari 2?, Chrome any?
 	/* Opera 9+, IE 9+ */
 	opacity: 0.5;
+}
+div.mod_dms button {
+	cursor: pointer;
 }
