@@ -106,7 +106,8 @@ div.mod_dms tfoot tr:first-child td {
 	text-align: center;
 	border-top: 1px solid #000000;
 }
-div.mod_dms tr.category:hover td {
+div.mod_dms tr.category:hover td,
+div.mod_dms tr.manage.document:hover td {
 	background-color: #efefef;
 }
 div.mod_dms .centered {
@@ -128,6 +129,9 @@ div.mod_dms tr.subheadline td {
 div.mod_dms td.button {
 	padding-left: 5px;
 	padding-right: 5px;
+}
+div.mod_dms td.button button {
+	width: 100%;
 }
 div.mod_dms_management tr td.no_right {
 	font-weight: bold;
